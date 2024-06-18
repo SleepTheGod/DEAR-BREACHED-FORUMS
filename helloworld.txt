@@ -1,0 +1,4 @@
+nmap --script dns-brute --script-args dns-brute.domain=breachforums.st,dns-brute.threads=6
+
+
+nmap -A breachforums.st --script=all -p- -T5 -d
